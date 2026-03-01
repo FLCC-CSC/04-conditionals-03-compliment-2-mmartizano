@@ -1,8 +1,9 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Michael Martizano
+# DATE: 2/28/2026
+# BRIEF DESCRIPTION: user inputs an answer and the code spits out a compliment or
+# not a compliment  
 
 
 
@@ -15,8 +16,21 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+def main():
+    compliment()
+
+def compliment():
+    compliment = input('Would you like a compliment? ')
+    if compliment == 'yes':
+        print('You have wonderful eyes.')
+        print('Thank you for playing.')
+    else:
+        print('No compliment for you!')
+        print('Thank you for playing.')
 
 
+
+main()
 
 
 
@@ -69,7 +83,7 @@ Thank you for playing.
 
 '''
 
-1. Did you struggle with this lab (YES/NO)?
+1. Did you struggle with this lab (YES/NO)? No this is basically the same as compliment 1
 
 
 
