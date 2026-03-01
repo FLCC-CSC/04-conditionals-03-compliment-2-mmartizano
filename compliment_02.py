@@ -25,7 +25,7 @@ def compliment():
         print('You have wonderful eyes.')
         print('Thank you for playing.')
     else:
-        print('No complument for you!')
+        print('No compliment for you!')
         print('Thank you for playing.')
 
 
